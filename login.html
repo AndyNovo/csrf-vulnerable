@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Login Please</title>
+  </head>
+  <body>
+    <p>Welcome to the insecure and unpleasant chat app</p>
+    MESSAGEHERE
+    <hr>
+    <form method="post">
+      <input type="text" name="username" placeholder="username, e.g. admin"></input>
+      <input type="password" name="password" placeholder="password"></input>
+      <input type="hidden" name="login" value="login">
+      <button type="submit">Login</button>
+    </form>
+    <hr>
+    <form action="index.php" method="post">
+      <input type="text" name="username" placeholder="username, e.g. admin"></input>
+      <input type="password" name="password" placeholder="password"></input>
+      <input type="hidden" name="register" value="register">
+      <button type="submit">or Register</button>
+    </form>  
+  </body>
+</html>

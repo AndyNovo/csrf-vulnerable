@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome to the chat</title>
+  </head>
+  <body>
+    <p>Chat screen for MYUSERNAME</p>
+    <hr>
+    <table border="1">
+      <col style="width:10%">
+      <col style="width:90%">
+      <tr><th>Username</th><th>Message</th></tr>
+      MESSAGESHERE
+    </table>
+    <hr>
+    <form action="index.php" method="post">
+      <input type="text" name="message" placeholder="chat here"></input>
+      <button type="submit">Send</button>
+    </form>
+    <hr>
+    <form action="index.php" method="post">
+      <input type="hidden" name="logout" value="true"/>
+      <button type="submit">Logout</button>
+    </form>
+  </body>
+</html>
