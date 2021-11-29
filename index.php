@@ -1,4 +1,5 @@
 <?php
+  ini_set('session.cookie_samesite', 'None');
   session_start();
   
   function sanitize_html_string($string)
